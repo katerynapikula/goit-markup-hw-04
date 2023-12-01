@@ -77,9 +77,11 @@ button {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-right: 76px;
 }
 
+.header-logo {
+margin-right: 76px;
+}
 .header-logo .logo-part {
     color: #2E2F42;
 }
@@ -132,7 +134,6 @@ color: #404BBF;
 .header-nav {
     display:flex;
     align-items: center;
-    gap:40px;
 }
 
 .nav-list {
@@ -178,7 +179,7 @@ position: relative;
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
-    margin: o auto;    
+    margin: 0 auto;    
 }
 
 .hero-heading
@@ -259,7 +260,6 @@ button {
     gap: 24px;
     align-items: center;
     justify-content: center;
-    width: 264px;
     height: 112px;
     border-radius: 4px;
     border: 1px solid #8E8F99;
@@ -309,6 +309,7 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-list {
@@ -344,7 +345,6 @@ width: 100%;
     display: flex;
     gap: 24px;
     justify-content: center;
-    margin-top: 8px;
 }
 
 .social-list-link:hover,
@@ -367,7 +367,7 @@ width: 100%;
 }
 .portfolio-item {
         background: #FFF;
-        width: calc((100-48px)/3);
+        width: calc((100% - 48px)/3);
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .portfolio-item:hover {
@@ -489,3 +489,5 @@ margin-right: 120px;
 
 
 /* ============== FOOTER STYLES ============== */
+
+
